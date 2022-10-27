@@ -1,7 +1,8 @@
 import pytest
 
-def test_always_passes():
-    assert True
+def inc(x):
+    return x + 1
 
-def test_always_fails():
-    assert False
+
+def test_answer():
+    assert inc(3) == 5
