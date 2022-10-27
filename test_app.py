@@ -8,7 +8,7 @@ def test_load_wiki_summary_query(x):
     testSummary = wikipedia.summary(results[0], sentences=10)
     return testSummary
     
-def test_load_wiki_summary:   
+def test_load_wiki_summary():   
      results = wikipedia.search("Calgary")
      summary = wikipedia.summary(results[0], sentences=10)    
     
