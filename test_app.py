@@ -1,8 +1,8 @@
 import pytest
 
-def inc(x):
-    return x + 1
-
-
-def test_answer():
-    assert inc(3) == 5
+def test_add():
+    import app
+    # test basic functionality
+    assert project.add(1,1) == 2
+    # try a border case
+    assert project.add(-1,-1) == -2
