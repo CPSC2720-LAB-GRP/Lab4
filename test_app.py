@@ -1,7 +1,7 @@
 import pytest
 
-def test_add():
-    # test basic functionality
-    assert project.add(1,1) == 2
-    # try a border case
-    assert project.add(-1,-1) == -2
+def func(x):
+    return x + 1
+
+def test_answer():
+    assert func(3) == 4
