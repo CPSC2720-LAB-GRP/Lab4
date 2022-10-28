@@ -1,8 +1,6 @@
 import pytest
-import wikipedia
-import streamlit as st
-from tokenizers import Tokenizer
-from transformers import pipeline, Pipeline 
+from app.py import load_wiki_summary
+from app.py import answer_question
 
 
 # def test_load_wiki_summary_query(x):
